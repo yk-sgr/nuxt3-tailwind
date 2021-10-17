@@ -1,6 +1,4 @@
-# Nuxt 3 Minimal Starter
-
-We recommend to look at the [documentation](https://v3.nuxtjs.org).
+# Nuxt 3 - TailwindCSS
 
 ## Setup
 
@@ -10,20 +8,6 @@ Make sure to install the dependencies
 yarn install
 ```
 
-## Development
-
-Start the development server on http://localhost:3000
-
-```bash
-yarn dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-yarn build
-```
-
-Checkout the [deployment documentation](https://v3.nuxtjs.org/docs/deployment).
+**Note**
+I was having problems creating a Nuxt3 project with TailwindCSS because of some weird issues. [This](https://github.com/nuxt-community/tailwindcss-module/issues/387#issuecomment-942195100) and [this](https://github.com/nuxt-community/tailwindcss-module/issues/387#issuecomment-944598196) comment helped me fixing it.
+In order to help all the other people who also get these weird issues I created this template.
